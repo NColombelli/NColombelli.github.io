@@ -1,6 +1,18 @@
-# Welcome to MkFibre
+# La planète fibre optique et ses acteurs
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLDMcf1BNftFnQ1KG8lesnbquV28fL7Pm70A&usqp=CAU)
+
+[Standard GraceTHD](http://cnig.gouv.fr/wp-content/uploads/2019/07/COVADIS_standard_ANT_v2-0-2_GraceTHD_rc2.pdf "GraceTHD")
+
+[![](https://smart-city.cerema.fr/sites/smartcity/files/styles/l480/public/images/2020/07/Avicca-logo.png?itok=UgetzeLu)](https://www.avicca.org/) 
+
+[![](https://www.frenchtechbordeaux.com/wp-content/uploads/2019/03/Logo_Dotic-01.png)](https://www.dotic.fr/)
+
+[![](https://blog.ariase.com/hubfs/Ariase/Ariase-blog-dossiers/orange/logo-orange.jpg)](https://reseaux.orange.fr/) 
+
+[![](https://fibre.guide/wp-content/uploads/2020/09/altitude-infra.jpg)](https://www.altitudeinfra.fr/)
+
+<!-- For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
 ## Commands
 
@@ -15,3 +27,4 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
     docs/
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
+-- >
