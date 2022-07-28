@@ -4,4 +4,4 @@ nav:
     - Home: index.md
     - About: about.md
     - Serie: about.md
-theme: readthedocs # windmill # readthedocs bootstrap4
+theme: windmill # readthedocs bootstrap4
