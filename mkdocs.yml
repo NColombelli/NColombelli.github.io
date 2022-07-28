@@ -3,6 +3,5 @@ site_url: https://ncolombelli.github.io/
 nav:
     - Home: index.md
     - About: about.md
-theme: readthedocs # windmill # readthedocs bootstrap4
     - Serie: about.md
 theme: readthedocs # windmill # readthedocs bootstrap4
