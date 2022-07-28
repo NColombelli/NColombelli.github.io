@@ -3,4 +3,5 @@ site_url: https://la_fibre_dotic.com/
 nav:
     - Home: index.md
     - About: about.md
+    - Serie: about.md
 theme: readthedocs # windmill # readthedocs bootstrap4
