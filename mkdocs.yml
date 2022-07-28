@@ -5,5 +5,5 @@ nav:
     - About: about.md
     - Serie: about.md
 theme: 
-    name: readthedocs # windmill # readthedocs bootstrap4
+    name: mkdocs # readthedocs # windmill # readthedocs bootstrap4
     palette: teal #indigo pink black purpple teal blue light blue green yellow
