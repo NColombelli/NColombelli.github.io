@@ -1,19 +1,29 @@
-name: Publish docs via GitHub Pages
+name: mkdocs
+
 on:
   push:
-    branches:
-      - main
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
 
 jobs:
   build:
-    name: Deploy docs
     runs-on: ubuntu-latest
-    steps:
-      - name: Checkout main
-        uses: actions/checkout@v1
+    strategy:
+      matrix:
+        python-version: [ 3.10 ]
 
-      - name: Deploy docs
-        uses: mhausenblas/mkdocs-deploy-gh-pages@master
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          #CONFIG_FILE: mkdocs.yml
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v2
+        with:
+          python-version: ${{ matrix.python-version }}
+          architecture: x64
+
+      #- name: Install requirements
+      #  run: python3 -m pip install -r requirements.txt
+
+      - name: Deploy 🚀
+        run: python3 -m mkdocs gh-deploy --force
