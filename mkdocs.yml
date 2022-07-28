@@ -3,7 +3,7 @@ site_url: https://ncolombelli.github.io/
 nav:
     - Home: index.md
     - About: about.md
-    - Serie: about.md
+    - Orange: orange.md
 theme: 
     name: mkdocs # readthedocs # windmill # readthedocs bootstrap4
     palette: teal #indigo pink black purpple teal blue light blue green yellow
