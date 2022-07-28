@@ -2,7 +2,6 @@ site_name: La fibre optique
 site_url: https://ncolombelli.github.io/
 nav:
     - Home: index.md
-    - About: about.md
     - Orange: orange.md
     - AIC: aic.md
 theme: 
