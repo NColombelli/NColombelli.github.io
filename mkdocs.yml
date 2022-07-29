@@ -5,7 +5,7 @@ nav:
     - Orange: orange.md
     - AIC: aic.md
 theme: 
-    name: readthedocs # mkdocs # windmill # readthedocs bootstrap4
+    name: windmill # mkdocs # windmill # readthedocs bootstrap4
     palette: 
         primary: teal #indigo pink black purpple teal blue light blue green yellow
         accent: teal
