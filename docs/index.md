@@ -1,6 +1,6 @@
 # **La planète fibre optique et ses acteurs**
 
-## hghfhh ## {.main}
+## hghfhh {#identifier .main}
 
 ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLDMcf1BNftFnQ1KG8lesnbquV28fL7Pm70A&usqp=CAU)
 
